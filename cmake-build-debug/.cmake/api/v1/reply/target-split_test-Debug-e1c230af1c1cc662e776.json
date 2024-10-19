@@ -100,18 +100,18 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "test_TextSplitter.cpp",
+			"path" : "src/test_TextSplitter.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "TextSplitter.cpp",
+			"path" : "src/TextSplitter.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "TextSplitter.h",
+			"path" : "src/TextSplitter.h",
 			"sourceGroupIndex" : 1
 		}
 	],

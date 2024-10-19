@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/TextSplitter.cpp" "CMakeFiles/split_test.dir/TextSplitter.cpp.o" "gcc" "CMakeFiles/split_test.dir/TextSplitter.cpp.o.d"
-  "/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/test_TextSplitter.cpp" "CMakeFiles/split_test.dir/test_TextSplitter.cpp.o" "gcc" "CMakeFiles/split_test.dir/test_TextSplitter.cpp.o.d"
+  "/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp" "CMakeFiles/split_test.dir/src/TextSplitter.cpp.o" "gcc" "CMakeFiles/split_test.dir/src/TextSplitter.cpp.o.d"
+  "/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_TextSplitter.cpp" "CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o" "gcc" "CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

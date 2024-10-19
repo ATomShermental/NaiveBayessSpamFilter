@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/spam_filter.dir/main.cpp.o"
-  "CMakeFiles/spam_filter.dir/main.cpp.o.d"
+  "CMakeFiles/spam_filter.dir/src/main.cpp.o"
+  "CMakeFiles/spam_filter.dir/src/main.cpp.o.d"
   "spam_filter"
   "spam_filter.pdb"
 )

@@ -69,44 +69,44 @@ include CMakeFiles/split_test.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/split_test.dir/flags.make
 
-CMakeFiles/split_test.dir/test_TextSplitter.cpp.o: CMakeFiles/split_test.dir/flags.make
-CMakeFiles/split_test.dir/test_TextSplitter.cpp.o: /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/test_TextSplitter.cpp
-CMakeFiles/split_test.dir/test_TextSplitter.cpp.o: CMakeFiles/split_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/split_test.dir/test_TextSplitter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/split_test.dir/test_TextSplitter.cpp.o -MF CMakeFiles/split_test.dir/test_TextSplitter.cpp.o.d -o CMakeFiles/split_test.dir/test_TextSplitter.cpp.o -c /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/test_TextSplitter.cpp
+CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o: CMakeFiles/split_test.dir/flags.make
+CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o: /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_TextSplitter.cpp
+CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o: CMakeFiles/split_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o -MF CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o.d -o CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o -c /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_TextSplitter.cpp
 
-CMakeFiles/split_test.dir/test_TextSplitter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/split_test.dir/test_TextSplitter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/test_TextSplitter.cpp > CMakeFiles/split_test.dir/test_TextSplitter.cpp.i
+CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_TextSplitter.cpp > CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.i
 
-CMakeFiles/split_test.dir/test_TextSplitter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/split_test.dir/test_TextSplitter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/test_TextSplitter.cpp -o CMakeFiles/split_test.dir/test_TextSplitter.cpp.s
+CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_TextSplitter.cpp -o CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.s
 
-CMakeFiles/split_test.dir/TextSplitter.cpp.o: CMakeFiles/split_test.dir/flags.make
-CMakeFiles/split_test.dir/TextSplitter.cpp.o: /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/TextSplitter.cpp
-CMakeFiles/split_test.dir/TextSplitter.cpp.o: CMakeFiles/split_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/split_test.dir/TextSplitter.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/split_test.dir/TextSplitter.cpp.o -MF CMakeFiles/split_test.dir/TextSplitter.cpp.o.d -o CMakeFiles/split_test.dir/TextSplitter.cpp.o -c /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/TextSplitter.cpp
+CMakeFiles/split_test.dir/src/TextSplitter.cpp.o: CMakeFiles/split_test.dir/flags.make
+CMakeFiles/split_test.dir/src/TextSplitter.cpp.o: /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp
+CMakeFiles/split_test.dir/src/TextSplitter.cpp.o: CMakeFiles/split_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/split_test.dir/src/TextSplitter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/split_test.dir/src/TextSplitter.cpp.o -MF CMakeFiles/split_test.dir/src/TextSplitter.cpp.o.d -o CMakeFiles/split_test.dir/src/TextSplitter.cpp.o -c /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp
 
-CMakeFiles/split_test.dir/TextSplitter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/split_test.dir/TextSplitter.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/TextSplitter.cpp > CMakeFiles/split_test.dir/TextSplitter.cpp.i
+CMakeFiles/split_test.dir/src/TextSplitter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/split_test.dir/src/TextSplitter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp > CMakeFiles/split_test.dir/src/TextSplitter.cpp.i
 
-CMakeFiles/split_test.dir/TextSplitter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/split_test.dir/TextSplitter.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/TextSplitter.cpp -o CMakeFiles/split_test.dir/TextSplitter.cpp.s
+CMakeFiles/split_test.dir/src/TextSplitter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/split_test.dir/src/TextSplitter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp -o CMakeFiles/split_test.dir/src/TextSplitter.cpp.s
 
 # Object files for target split_test
 split_test_OBJECTS = \
-"CMakeFiles/split_test.dir/test_TextSplitter.cpp.o" \
-"CMakeFiles/split_test.dir/TextSplitter.cpp.o"
+"CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o" \
+"CMakeFiles/split_test.dir/src/TextSplitter.cpp.o"
 
 # External object files for target split_test
 split_test_EXTERNAL_OBJECTS =
 
-split_test: CMakeFiles/split_test.dir/test_TextSplitter.cpp.o
-split_test: CMakeFiles/split_test.dir/TextSplitter.cpp.o
+split_test: CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o
+split_test: CMakeFiles/split_test.dir/src/TextSplitter.cpp.o
 split_test: CMakeFiles/split_test.dir/build.make
 split_test: CMakeFiles/split_test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable split_test"

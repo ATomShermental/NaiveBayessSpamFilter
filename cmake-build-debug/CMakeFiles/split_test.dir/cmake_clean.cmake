@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/split_test.dir/TextSplitter.cpp.o"
-  "CMakeFiles/split_test.dir/TextSplitter.cpp.o.d"
-  "CMakeFiles/split_test.dir/test_TextSplitter.cpp.o"
-  "CMakeFiles/split_test.dir/test_TextSplitter.cpp.o.d"
+  "CMakeFiles/split_test.dir/src/TextSplitter.cpp.o"
+  "CMakeFiles/split_test.dir/src/TextSplitter.cpp.o.d"
+  "CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o"
+  "CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o.d"
   "split_test"
   "split_test.pdb"
 )

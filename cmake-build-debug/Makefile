@@ -142,77 +142,77 @@ split_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/build
 .PHONY : split_test/fast
 
-TextSplitter.o: TextSplitter.cpp.o
-.PHONY : TextSplitter.o
+src/TextSplitter.o: src/TextSplitter.cpp.o
+.PHONY : src/TextSplitter.o
 
 # target to build an object file
-TextSplitter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/TextSplitter.cpp.o
-.PHONY : TextSplitter.cpp.o
+src/TextSplitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/TextSplitter.cpp.o
+.PHONY : src/TextSplitter.cpp.o
 
-TextSplitter.i: TextSplitter.cpp.i
-.PHONY : TextSplitter.i
+src/TextSplitter.i: src/TextSplitter.cpp.i
+.PHONY : src/TextSplitter.i
 
 # target to preprocess a source file
-TextSplitter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/TextSplitter.cpp.i
-.PHONY : TextSplitter.cpp.i
+src/TextSplitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/TextSplitter.cpp.i
+.PHONY : src/TextSplitter.cpp.i
 
-TextSplitter.s: TextSplitter.cpp.s
-.PHONY : TextSplitter.s
+src/TextSplitter.s: src/TextSplitter.cpp.s
+.PHONY : src/TextSplitter.s
 
 # target to generate assembly for a file
-TextSplitter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/TextSplitter.cpp.s
-.PHONY : TextSplitter.cpp.s
+src/TextSplitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/TextSplitter.cpp.s
+.PHONY : src/TextSplitter.cpp.s
 
-main.o: main.cpp.o
-.PHONY : main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
-test_TextSplitter.o: test_TextSplitter.cpp.o
-.PHONY : test_TextSplitter.o
+src/test_TextSplitter.o: src/test_TextSplitter.cpp.o
+.PHONY : src/test_TextSplitter.o
 
 # target to build an object file
-test_TextSplitter.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/test_TextSplitter.cpp.o
-.PHONY : test_TextSplitter.cpp.o
+src/test_TextSplitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.o
+.PHONY : src/test_TextSplitter.cpp.o
 
-test_TextSplitter.i: test_TextSplitter.cpp.i
-.PHONY : test_TextSplitter.i
+src/test_TextSplitter.i: src/test_TextSplitter.cpp.i
+.PHONY : src/test_TextSplitter.i
 
 # target to preprocess a source file
-test_TextSplitter.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/test_TextSplitter.cpp.i
-.PHONY : test_TextSplitter.cpp.i
+src/test_TextSplitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.i
+.PHONY : src/test_TextSplitter.cpp.i
 
-test_TextSplitter.s: test_TextSplitter.cpp.s
-.PHONY : test_TextSplitter.s
+src/test_TextSplitter.s: src/test_TextSplitter.cpp.s
+.PHONY : src/test_TextSplitter.s
 
 # target to generate assembly for a file
-test_TextSplitter.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/test_TextSplitter.cpp.s
-.PHONY : test_TextSplitter.cpp.s
+src/test_TextSplitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/test_TextSplitter.cpp.s
+.PHONY : src/test_TextSplitter.cpp.s
 
 # Help Target
 help:
@@ -224,15 +224,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... spam_filter"
 	@echo "... split_test"
-	@echo "... TextSplitter.o"
-	@echo "... TextSplitter.i"
-	@echo "... TextSplitter.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... test_TextSplitter.o"
-	@echo "... test_TextSplitter.i"
-	@echo "... test_TextSplitter.s"
+	@echo "... src/TextSplitter.o"
+	@echo "... src/TextSplitter.i"
+	@echo "... src/TextSplitter.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/test_TextSplitter.o"
+	@echo "... src/test_TextSplitter.i"
+	@echo "... src/test_TextSplitter.s"
 .PHONY : help
 
 
