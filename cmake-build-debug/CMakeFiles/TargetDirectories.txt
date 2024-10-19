@@ -1,0 +1,4 @@
+/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles/spam_filter.dir
+/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles/split_test.dir
+/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles/rebuild_cache.dir
