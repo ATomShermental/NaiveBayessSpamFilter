@@ -4,7 +4,7 @@
 #include <map>
 class NaiveBayesSpamFilter {
 private:
-    std::set<std::string> vocablurary;
+    std::set<std::string> vocabulary;
     std::map<std::string, int> spamWordsCount;
     std::map<std::string,int> hamWordsCount;
     int numSpamWords;

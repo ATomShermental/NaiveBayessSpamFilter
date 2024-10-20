@@ -26,13 +26,13 @@ void NaiveBayesSpamFilter::train(const std::vector<std::pair<std::string,bool>>&
             numSpamDocs++;
             for(auto const& word : words) {
                 numSpamWords++;
-                vocablurary.insert(word);
+                vocabulary.insert(word);
                 spamWordsCount[word]++;
             }
         } else {
             numHamDocs++;
             for(auto const& word : words) {
-                vocablurary.insert(word);
+                vocabulary.insert(word);
                 numHamWords++;
                 hamWordsCount[word]++;
             }
@@ -47,9 +47,9 @@ bool NaiveBayesSpamFilter::predict(const std::string& text) {
     std::vector<std::string> words = splitter.split(text);
 
     for(auto const& word : words) {
-        spamLogProb += log((spamWordsCount[word] + 1)/static_cast<double>(vocablurary.size()+numSpamWords));
+        spamLogProb += log((spamWordsCount[word] + 1)/static_cast<double>(vocabulary.size()+numSpamWords));
 
-        hamLogProb += log((hamWordsCount[word]+1)/static_cast<double>(vocablurary.size()+numHamWords));
+        hamLogProb += log((hamWordsCount[word]+1)/static_cast<double>(vocabulary.size()+numHamWords));
     }
 
     return spamLogProb > hamLogProb;
