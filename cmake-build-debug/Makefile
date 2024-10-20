@@ -142,11 +142,36 @@ split_test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/build
 .PHONY : split_test/fast
 
+src/NaiveBayessSpamFilter.o: src/NaiveBayessSpamFilter.cpp.o
+.PHONY : src/NaiveBayessSpamFilter.o
+
+# target to build an object file
+src/NaiveBayessSpamFilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o
+.PHONY : src/NaiveBayessSpamFilter.cpp.o
+
+src/NaiveBayessSpamFilter.i: src/NaiveBayessSpamFilter.cpp.i
+.PHONY : src/NaiveBayessSpamFilter.i
+
+# target to preprocess a source file
+src/NaiveBayessSpamFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.i
+.PHONY : src/NaiveBayessSpamFilter.cpp.i
+
+src/NaiveBayessSpamFilter.s: src/NaiveBayessSpamFilter.cpp.s
+.PHONY : src/NaiveBayessSpamFilter.s
+
+# target to generate assembly for a file
+src/NaiveBayessSpamFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.s
+.PHONY : src/NaiveBayessSpamFilter.cpp.s
+
 src/TextSplitter.o: src/TextSplitter.cpp.o
 .PHONY : src/TextSplitter.o
 
 # target to build an object file
 src/TextSplitter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/TextSplitter.cpp.o
 .PHONY : src/TextSplitter.cpp.o
 
@@ -155,6 +180,7 @@ src/TextSplitter.i: src/TextSplitter.cpp.i
 
 # target to preprocess a source file
 src/TextSplitter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/TextSplitter.cpp.i
 .PHONY : src/TextSplitter.cpp.i
 
@@ -163,32 +189,33 @@ src/TextSplitter.s: src/TextSplitter.cpp.s
 
 # target to generate assembly for a file
 src/TextSplitter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/split_test.dir/build.make CMakeFiles/split_test.dir/src/TextSplitter.cpp.s
 .PHONY : src/TextSplitter.cpp.s
 
-src/main.o: src/main.cpp.o
-.PHONY : src/main.o
+src/test_NaiveBayessSpamFilter.o: src/test_NaiveBayessSpamFilter.cpp.o
+.PHONY : src/test_NaiveBayessSpamFilter.o
 
 # target to build an object file
-src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/main.cpp.o
-.PHONY : src/main.cpp.o
+src/test_NaiveBayessSpamFilter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o
+.PHONY : src/test_NaiveBayessSpamFilter.cpp.o
 
-src/main.i: src/main.cpp.i
-.PHONY : src/main.i
+src/test_NaiveBayessSpamFilter.i: src/test_NaiveBayessSpamFilter.cpp.i
+.PHONY : src/test_NaiveBayessSpamFilter.i
 
 # target to preprocess a source file
-src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/main.cpp.i
-.PHONY : src/main.cpp.i
+src/test_NaiveBayessSpamFilter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.i
+.PHONY : src/test_NaiveBayessSpamFilter.cpp.i
 
-src/main.s: src/main.cpp.s
-.PHONY : src/main.s
+src/test_NaiveBayessSpamFilter.s: src/test_NaiveBayessSpamFilter.cpp.s
+.PHONY : src/test_NaiveBayessSpamFilter.s
 
 # target to generate assembly for a file
-src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/main.cpp.s
-.PHONY : src/main.cpp.s
+src/test_NaiveBayessSpamFilter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/spam_filter.dir/build.make CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.s
+.PHONY : src/test_NaiveBayessSpamFilter.cpp.s
 
 src/test_TextSplitter.o: src/test_TextSplitter.cpp.o
 .PHONY : src/test_TextSplitter.o
@@ -224,12 +251,15 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... spam_filter"
 	@echo "... split_test"
+	@echo "... src/NaiveBayessSpamFilter.o"
+	@echo "... src/NaiveBayessSpamFilter.i"
+	@echo "... src/NaiveBayessSpamFilter.s"
 	@echo "... src/TextSplitter.o"
 	@echo "... src/TextSplitter.i"
 	@echo "... src/TextSplitter.s"
-	@echo "... src/main.o"
-	@echo "... src/main.i"
-	@echo "... src/main.s"
+	@echo "... src/test_NaiveBayessSpamFilter.o"
+	@echo "... src/test_NaiveBayessSpamFilter.i"
+	@echo "... src/test_NaiveBayessSpamFilter.s"
 	@echo "... src/test_TextSplitter.o"
 	@echo "... src/test_TextSplitter.i"
 	@echo "... src/test_TextSplitter.s"

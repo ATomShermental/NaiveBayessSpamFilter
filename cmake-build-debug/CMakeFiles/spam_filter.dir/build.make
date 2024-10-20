@@ -69,31 +69,63 @@ include CMakeFiles/spam_filter.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/spam_filter.dir/flags.make
 
-CMakeFiles/spam_filter.dir/src/main.cpp.o: CMakeFiles/spam_filter.dir/flags.make
-CMakeFiles/spam_filter.dir/src/main.cpp.o: /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/main.cpp
-CMakeFiles/spam_filter.dir/src/main.cpp.o: CMakeFiles/spam_filter.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spam_filter.dir/src/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spam_filter.dir/src/main.cpp.o -MF CMakeFiles/spam_filter.dir/src/main.cpp.o.d -o CMakeFiles/spam_filter.dir/src/main.cpp.o -c /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/main.cpp
+CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o: CMakeFiles/spam_filter.dir/flags.make
+CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o: /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/NaiveBayessSpamFilter.cpp
+CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o: CMakeFiles/spam_filter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o -MF CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o.d -o CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o -c /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/NaiveBayessSpamFilter.cpp
 
-CMakeFiles/spam_filter.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/spam_filter.dir/src/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/main.cpp > CMakeFiles/spam_filter.dir/src/main.cpp.i
+CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/NaiveBayessSpamFilter.cpp > CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.i
 
-CMakeFiles/spam_filter.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/spam_filter.dir/src/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/main.cpp -o CMakeFiles/spam_filter.dir/src/main.cpp.s
+CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/NaiveBayessSpamFilter.cpp -o CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.s
+
+CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o: CMakeFiles/spam_filter.dir/flags.make
+CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o: /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_NaiveBayessSpamFilter.cpp
+CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o: CMakeFiles/spam_filter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o -MF CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o.d -o CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o -c /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_NaiveBayessSpamFilter.cpp
+
+CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_NaiveBayessSpamFilter.cpp > CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.i
+
+CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_NaiveBayessSpamFilter.cpp -o CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.s
+
+CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o: CMakeFiles/spam_filter.dir/flags.make
+CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o: /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp
+CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o: CMakeFiles/spam_filter.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o -MF CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o.d -o CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o -c /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp
+
+CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp > CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.i
+
+CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp -o CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.s
 
 # Object files for target spam_filter
 spam_filter_OBJECTS = \
-"CMakeFiles/spam_filter.dir/src/main.cpp.o"
+"CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o" \
+"CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o" \
+"CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o"
 
 # External object files for target spam_filter
 spam_filter_EXTERNAL_OBJECTS =
 
-spam_filter: CMakeFiles/spam_filter.dir/src/main.cpp.o
+spam_filter: CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o
+spam_filter: CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o
+spam_filter: CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o
 spam_filter: CMakeFiles/spam_filter.dir/build.make
 spam_filter: CMakeFiles/spam_filter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable spam_filter"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable spam_filter"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/spam_filter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/main.cpp" "CMakeFiles/spam_filter.dir/src/main.cpp.o" "gcc" "CMakeFiles/spam_filter.dir/src/main.cpp.o.d"
+  "/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/NaiveBayessSpamFilter.cpp" "CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o" "gcc" "CMakeFiles/spam_filter.dir/src/NaiveBayessSpamFilter.cpp.o.d"
+  "/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/TextSplitter.cpp" "CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o" "gcc" "CMakeFiles/spam_filter.dir/src/TextSplitter.cpp.o.d"
+  "/Users/atomshermental/cpp_projects/NaiveBayessSpamFilter/src/test_NaiveBayessSpamFilter.cpp" "CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o" "gcc" "CMakeFiles/spam_filter.dir/src/test_NaiveBayessSpamFilter.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
